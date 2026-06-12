@@ -12,7 +12,12 @@
 
 ## 🎯 Project Overview
 
-+ 
+This project provides a comprehensive simulation framework for modeling the progression of Type 2 Diabetes (T2D) over HbA1c level and evaluating treatment outcomes at both individual and population levels. Using Dynamic Linear Models (DLMs) with patient-specific random effects, the framework generates a realistic longitudinal trajectory for a key risk factor, HbA1c.
+
+Beyond risk-factor simulation, the project quantifies cumulative glycemic exposure, estimates diabetes-related complication hazards, derives annual event probabilities, and evaluates treatment efficiency over time. These components enable the assessment of disease progression, long-term health outcomes, and intervention effectiveness within a unified modeling framework.
+
+The simulated data support the development of data-driven decision models, including Markov Decision Processes (MDPs), for optimizing treatment strategies and intervention timing.
+
 
 ---
 
