@@ -4,6 +4,20 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+# ---------------------------------------------------------------------------
+# Assumes `df` already exists in the notebook from the user's HbA1c simulation
+# ---------------------------------------------------------------------------
+try:
+    df
+except NameError:
+    raise RuntimeError(
+        "The DataFrame `df` was not found. "
+        "Please run your HbA1c simulation code first, "
+        "so that `df` containing the columns "
+        "['Bootstrap', 'Year', 'Diabetes_Duration', 'Patient_ID', "
+        "'Sex', 'Ethnicity', 'HbA1c'] is defined."
+    )
+
 # Mapping for Sex and Ethnicity
 sex_map = {0: 'Male', 1: 'Female'}
 ethnicity_map = {0: 'White & Other', 1: 'Asian-Indian', 2: 'Afro-Caribbean'}
