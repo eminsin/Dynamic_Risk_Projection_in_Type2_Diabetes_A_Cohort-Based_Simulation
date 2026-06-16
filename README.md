@@ -39,14 +39,14 @@ Dynamic_Risk_Projection_in_Type2_Diabetes_A_Cohort-Based_Simulation/
 ├── data/
 │   └──                                                                      # Simulated datasets
 ├── scripts/
-│   └── 1- simulation_framework.py                                           # Step-by-step analysis
+│   └── 1- simulation_framework.py                                           # Step-by-step simulation and outcomes analysis
 │   └── 2- data_visualization.py
 │   └── 3- individual_level_hazard_rate.py
 │   └── 4- individual_level_probability_of_having_a_chronic_disease.py
 │   └── 5- individual_level_therapy_efficiency.py
 │   └── 6- population_level_aggregation.py
 ├── images/
-│   └── simulation_and_study_design.png                                      # Visual outputs from the project
+│   └── simulation_and_study_design.png                                      # Simulation design
 ├── README.md                                                                # Project overview (you are here)
 └── LICENSE                                                                  # MIT License
 ```
