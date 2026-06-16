@@ -23,7 +23,10 @@ The simulated data support the development of data-driven decision models, inclu
 
 ## 🔬 Laboratory
 
-+ 
++ Developed a comprehensive longitudinal simulation framework for Type 2 Diabetes progression using Dynamic Linear Models (DLMs), state-space modeling concepts, patient-specific random effects, and Monte Carlo simulation to generate realistic trajectories of a key clinical biomarker HbA1c while capturing patient heterogeneity and temporal disease dynamics.
++ Applied advanced statistical and mathematical methods to quantify disease burden and risk, including cumulative glycemic exposure analysis, numerical integration techniques, hazard-based complication modeling, probability transformations, and longitudinal risk estimation to translate biomarker trajectories into clinically meaningful outcome predictions.
++ Designed and analyzed synthetic patient populations at both individual and cohort levels, leveraging multivariate simulation, distribution-based sampling, parameter calibration from published studies, and population-level aggregation to evaluate disease progression patterns, complication incidence, and treatment effectiveness across heterogeneous patient groups.
++ Integrated predictive analytics and real-world evidence methodologies by combining longitudinal data analysis, survival and risk modeling concepts, treatment response evaluation, and evidence synthesis from epidemiological studies to assess intervention outcomes and support future HEOR and disease-modeling applications.
 
 ---
 
