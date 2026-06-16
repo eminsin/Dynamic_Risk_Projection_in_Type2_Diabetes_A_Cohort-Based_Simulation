@@ -35,39 +35,20 @@ The simulated data can be used to support the development of data-driven decisio
 ```
 Dynamic_Risk_Projection_in_Type2_Diabetes_A_Cohort-Based_Simulation/
 ├── notebooks/
-│   └── Simulation_HbA1c_All.ipynb                                     # Main walkthrough notebooks  
+│   └── Simulation_HbA1c_All.ipynb                                           # Main walkthrough notebook  
 ├── data/
-│   └──                                                # Real-world dataset
+│   └──                                                                      # Simulated datasets
 ├── scripts/
-│   └── 1-                                           # Step-by-step analysis
-│   └── 2- 
-│   └── 3- 
-│   └── 4- 
-│   └── 5- 
-│   └── 6- 
-│   └── 7- 
-│   └── 8- 
-│   └── 9- 
-│   └── 10- 
-│   └── 11- 
-│   └── 12- 
-│   └── 13- 
-│   └── 14- 
-│   └── 15- 
-│   └── 16- 
-│   └── 17- 
-│   └── 18- 
+│   └── 1- simulation_framework.py                                           # Step-by-step analysis
+│   └── 2- data_visualization.py
+│   └── 3- individual_level_hazard_rate.py
+│   └── 4- individual_level_probability_of_having_a_chronic_disease.py
+│   └── 5- individual_level_therapy_efficiency.py
+│   └── 6- population_level_aggregation.py
 ├── images/
-│   └── .png                                     # Visual outputs from the project
-│   └── .png
-│   └── .png
-│   └── .png
-│   └── .png
-│   └── .png
-│   └── .png
-│   └── .png
-├── README.md                                                          # Project overview (you are here)
-└── LICENSE                                                            # MIT License
+│   └── simulation_and_study_design.png                                      # Visual outputs from the project
+├── README.md                                                                # Project overview (you are here)
+└── LICENSE                                                                  # MIT License
 ```
 
 ---
