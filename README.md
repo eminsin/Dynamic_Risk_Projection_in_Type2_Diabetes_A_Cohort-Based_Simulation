@@ -16,7 +16,7 @@ This project provides a comprehensive simulation framework for modeling the prog
 
 Beyond risk-factor simulation, the project quantifies cumulative glycemic exposure, estimates diabetes-related complication hazards, derives annual event probabilities, and evaluates treatment efficiency over time. These components enable the assessment of disease progression, long-term health outcomes, and intervention effectiveness within a unified modeling framework.
 
-The simulated data support the development of data-driven decision models, including Markov Decision Processes (MDPs), for optimizing treatment strategies and intervention timing.
+The simulated data can be used to support the development of data-driven decision models, including Markov Decision Processes (MDPs), for optimizing treatment strategies and intervention timing.
 
 
 ---
