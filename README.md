@@ -38,11 +38,25 @@ The simulated data can also be used to support the development of data-driven de
 ```
 Dynamic_Risk_Projection_in_Type2_Diabetes_A_Cohort-Based_Simulation/
 ├── notebooks/
-│   └── Simulation_HbA1c_All.ipynb                                           # Main walkthrough notebook  
+│   └── Simulation_HbA1c_All.ipynb                                          # Main walkthrough notebook  
 ├── data/
-│   └──                                                                      # Simulated datasets
+│   └── simulated_data_other_therapies.csv                                  # Dataset simulated to get HbA1c tracejtory for other therapies
+│   └── hazard_df_other_therapies.csv                                       # Hazard rates
+│   └── probability_df_other_therapies.csv                                  # Probabilities of having a chronic disease 
+│   └── beta_df_other_therapies.csv                                         # Other therapies' effectiveness for the metric beta produced
+│   └── population_hazard_probability_beta_df_other_therapies.csv           # Population-level aggregation for other therapies
+│   └── simulated_data_diet.csv                                             # Dataset simulated to get HbA1c tracejtory for diet
+│   └── hazard_df_diet.csv                                                  # Hazard rates
+│   └── probability_df_diet.csv                                             # Probabilities of having a chronic disease
+│   └── beta_df_other_diet.csv                                              # Diet's effectiveness for the metric beta produced
+│   └── population_hazard_probability_beta_df_diet.csv                      # Population-level aggregation for diet
+│   └── simulated_data_insulin.csv                                          # Dataset simulated to get HbA1c tracejtory for insulin
+│   └── hazard_df_insulin.csv                                               # Hazard rates
+│   └── probability_df_insulin.csv                                          # Probabilities of having a chronic disease
+│   └── beta_df_insulin.csv                                                 # Insulin's effectiveness for the metric beta produced
+│   └── population_hazard_probability_beta_df_insulin.csv                   # Population-level aggregation for diet                                  
 ├── scripts/
-│   └── 1- simulation_framework.py                                           # Step-by-step simulation and outcomes analysis
+│   └── 1- simulation_framework.py                                          # Step-by-step simulation and outcomes analysis for each therapy method
 │   └── 2- data_visualization.py
 │   └── 3- individual_level_hazard_rate.py
 │   └── 4- individual_level_probability_of_having_a_chronic_disease.py
@@ -116,7 +130,12 @@ Dynamic_Risk_Projection_in_Type2_Diabetes_A_Cohort-Based_Simulation/
 
 
 ## 🌱 Inspired By
-- ** by  et al.
+- *Estimating risk factor progression equations for the UKPDS Outcomes Model 2 (UKPDS 90)* by Leal et al.
+- *The Relationship of Glycemic Exposure (HbA1c) to the Risk of Development and Progression of Retinopathy in the Diabetes Control and Complications Trial* by The Diabetes Control and Complications Trial Research Group
+- *Estimates of Absolute Cause-Specific Risk in Cohort Studies* by J. Benichou and Mitchell H. Gail
+- *Effect of Patients’ Risks and Preferences on Health Gains With Plasma Glucose Level Lowering in Type 2 Diabetes Mellitus* by Vijan et al.
+
+
 
 ---
 
