@@ -12,7 +12,7 @@
 
 ## 🎯 Project Overview
 
-This project provides a **_comprehensive simulation framework_** for modeling the progression of Type 2 Diabetes (T2D) over HbA1c level and evaluating diet, insulin and other therapies' treatment outcomes at both individual and population levels. Using **_Dynamic Linear Models (DLMs)_** with patient-specific random effects, the framework generates a realistic longitudinal trajectory for a key risk factor, HbA1c.
+This project provides a **_comprehensive simulation framework_** for modeling the progression of Type 2 Diabetes (T2D) over HbA1c level and evaluating diet, insulin and other therapies' treatment outcomes at **_both individual and population levels._** Using **_Dynamic Linear Models (DLMs)_** with patient-specific random effects, the framework generates a realistic longitudinal trajectory for a key risk factor, HbA1c.
 
 Beyond **_risk-factor simulation,_** the project quantifies **_cumulative glycemic exposure,_** estimates **_diabetes-related complication hazards,_** derives **_annual event probabilities,_** and evaluates **_treatment efficiency over time._** These components enable the assessment of **_disease progression, long-term health outcomes, and intervention effectiveness_** within a unified modeling framework.
 
@@ -24,8 +24,8 @@ The simulated data can be used to support the development of data-driven decisio
 ## 🔬 Laboratory
 
 + Developed a **_comprehensive longitudinal simulation framework_** for Type 2 Diabetes progression using **_Dynamic Linear Models (DLMs), state-space modeling concepts, patient-specific random effects, and Monte Carlo simulation_** to generate realistic trajectories of a key clinical biomarker HbA1c while capturing patient heterogeneity and temporal disease dynamics.
-+ Applied advanced statistical and mathematical methods to quantify disease burden and risk, including cumulative glycemic exposure analysis, numerical integration techniques, hazard-based complication modeling, probability transformations, and longitudinal risk estimation to translate biomarker trajectories into clinically meaningful outcome predictions.
-+ Designed and analyzed synthetic patient populations at both individual and cohort levels, leveraging **_multivariate simulation, distribution-based sampling, parameter calibration from published studies, and population-level aggregation_** to evaluate disease progression patterns, complication incidence, and treatment effectiveness across heterogeneous patient groups.
++ Applied **_multivariate simulation, random-effects estimation, variance decomposition, distribution fitting, parameter calibration from published studies, uncertainty quantification_** and **_numerical integration techniques_** to quantify disease burden and risk and translate biomarker trajectories into clinically meaningful outcome predictions.
++ **_Designed and analyzed synthetic patient populations at both individual and cohort level_** to evaluate disease progression patterns, complication incidence, and treatment effectiveness across heterogeneous patient groups.
 + Integrated **_predictive analytics and real-world evidence methodologies_** by combining **_longitudinal data analysis, survival and risk modeling concepts, treatment response evaluation, and evidence synthesis_** from epidemiological studies to assess intervention outcomes and support **_future HEOR and disease-modeling applications._**
 
 ---
