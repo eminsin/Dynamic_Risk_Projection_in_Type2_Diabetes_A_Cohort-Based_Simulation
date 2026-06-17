@@ -19,6 +19,7 @@ Beyond **_risk-factor simulation,_** the project quantifies **_cumulative glycem
 The simulated data can be used to support the development of data-driven decision models, including Markov Decision Processes (MDPs), for optimizing treatment strategies and intervention timing.
 
 
+
 ---
 
 ## 🔬 Laboratory
@@ -29,6 +30,8 @@ The simulated data can be used to support the development of data-driven decisio
 + Integrated **_predictive analytics and real-world evidence methodologies_** by combining **_longitudinal data analysis, survival and risk modeling concepts, treatment response evaluation, and evidence synthesis_** from epidemiological studies to assess intervention outcomes and support **_future HEOR and disease-modeling applications._**
 
 ---
+
+
 
 ## 📂 Folder Structure
 
@@ -55,60 +58,27 @@ Dynamic_Risk_Projection_in_Type2_Diabetes_A_Cohort-Based_Simulation/
 
 
 
-## 🧠 Notebook Topics
+## 🧠 Notebook Topics for Each Intervention: Other Therapies, Diet and Insulin
 
-### 🧮 1. 
+### 🧮 1. Longitudinal Data Simulation
 + 
 
-### 🧮 2. 
+### 🧮 2. HbA1c Trajectory Visualization
 + 
 
-### 🧮 3. 
+### 🧮 3. Individual-level Hazard
 + 
 
-### 🧮 4. 
+### 🧮 4. Individual-level Probability of Having a Chronic Disease
 + 
 
-### ❗ 5. 
+### 🧮 5. Individual-level Therapy/Intervention Efficiency
 + 
 
-### 🧮 6. 
+### 🧮 6. Population-level Aggregation (Hazard/Probability/Efficiency)
 + 
 
-### 🧮 7. 
-+ 
-
-### 🧮 8. 
-+ 
-
-### 🧮 9. 
-+ 
-
-### 🧮 10. 
-+ 
-
-### 🧮 11. 
-+ 
-
-### 🧮 12. 
-+ 
-
-### 🧮 13. 
-+ 
-
-### 🧮 14. 
-+ 
-
-### 🧮 15. 
-+ 
-
-### 🧮 16. 
-+ 
-
-### 🧮 17. 
-+ 
-
-### 🧮 18. 
+### 🧮 7. Sensitivity Analysis (for Other Therapies only)
 + 
 
 
@@ -130,6 +100,8 @@ Dynamic_Risk_Projection_in_Type2_Diabetes_A_Cohort-Based_Simulation/
 - ** by  et al.
 
 ---
+
+
 
 ## 🤝 Connect
 
