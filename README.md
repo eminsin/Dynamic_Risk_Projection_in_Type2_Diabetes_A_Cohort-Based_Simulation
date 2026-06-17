@@ -54,7 +54,7 @@ Dynamic_Risk_Projection_in_Type2_Diabetes_A_Cohort-Based_Simulation/
 │   └── hazard_df_insulin.csv                                               # Hazard rates
 │   └── probability_df_insulin.csv                                          # Probabilities of having a chronic disease
 │   └── beta_df_insulin.csv                                                 # Insulin's effectiveness for the metric beta produced
-│   └── population_hazard_probability_beta_df_insulin.csv                   # Population-level aggregation for diet                                  
+│   └── population_hazard_probability_beta_df_insulin.csv                   # Population-level aggregation for insulin                                  
 ├── scripts/
 │   └── 1- simulation_framework.py                                          # Step-by-step simulation and outcomes analysis for each therapy method
 │   └── 2- data_visualization.py
